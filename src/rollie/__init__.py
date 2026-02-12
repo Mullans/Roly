@@ -1,3 +1,6 @@
-"""Rollie - A CLI tool example package."""
+"""CLI entrypoint package for rollie."""
 
-__version__ = "0.1.0"
+
+def main() -> None:
+    """Run the rollie command-line interface."""
+    print("Hello from rollie!")
