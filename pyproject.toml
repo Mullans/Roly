@@ -1,14 +1,17 @@
 [project]
-name = "rollie"
+name = "roly"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [{ name = "Sean Mullan", email = "sean@seanmullan.com" }]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "rich>=14,<15",
+    "typer>=0.20,<0.21",
+]
 
 [project.scripts]
-rollie = "rollie:main"
+roly = "roly:main"
 
 [build-system]
 requires = ["uv_build>=0.9.21,<0.10.0"]
@@ -49,7 +52,7 @@ docstring-code-format = true
 [tool.pytest.ini_options]
 addopts = [
     "-ra",
-    "--cov=rollie",
+    "--cov=roly",
     "--cov-report=term-missing",
     "--cov-report=html:tests_output/htmlcov",
     "--html=tests_output/pytest-report.html",
@@ -59,7 +62,7 @@ testpaths = ["tests"]
 
 [tool.coverage.run]
 branch = true
-source = ["rollie"]
+source = ["roly"]
 
 [tool.coverage.report]
 show_missing = true
