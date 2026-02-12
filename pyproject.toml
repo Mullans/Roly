@@ -70,8 +70,6 @@ skip_empty = true
 
 [dependency-groups]
 dev = [
-    "cairosvg>=2.8.2",
-    "pycairo>=1.29.0",
     "pytest>=9.0.2",
     "pytest-cov>=7.0.0",
     "pytest-html>=4.2.0",
