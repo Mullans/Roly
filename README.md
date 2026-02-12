@@ -1,17 +1,21 @@
-<p align="center">
-  <img src="assets/logo_wordmark.svg" alt="Roly logo" width="640">
-</p>
+<img src="assets/logo_wordmark.svg" alt="Roly logo" width="320">
 
-<h1 align="center">Roly</h1>
+# Roly
 
-<p align="center">
-  Deterministic role assembly for coding-agent workflows.
-</p>
+[![PyPI - Version](https://img.shields.io/pypi/v/roly.svg)](https://pypi.org/project/roly)
+
+Deterministic role assembly for coding-agent workflows.
 
 Roly helps build reusable role instructions that are composable, reviewable, and predictable.
 No hidden merges. No implicit magic. Just a clean CLI flow from role definition to generated output.
 
 ## Quick Start
+
+Try Roly from PyPI (no install):
+
+```bash
+uvx roly list --no-color
+```
 
 Run from source:
 
@@ -35,6 +39,7 @@ Prefer config-based assembly:
 ```bash
 uv run roly assemble --config examples/roly.config --user-role reviewer-default --no-color
 ```
+
 
 ## Why Roly
 
