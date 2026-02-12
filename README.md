@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo_wordmark_trebus.svg" alt="Roly logo" width="640">
+  <img src="assets/logo_wordmark.svg" alt="Roly logo" width="640">
 </p>
 
 <h1 align="center">Roly</h1>
